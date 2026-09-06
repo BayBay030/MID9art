@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>找不到頁面｜Mr.Mid9</title>
+  <meta name="robots" content="noindex">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Inter:wght@300;400&family=Noto+Sans+TC:wght@300;400&display=swap">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    :root {
+      --bg: #ffffff;
+      --fg: #111111;
+      --muted: #888888;
+      --hairline: #e8e8e8;
+      --serif: "Cormorant Garamond", Georgia, serif;
+      --sans: "Inter", "Noto Sans TC", -apple-system, BlinkMacSystemFont, "Helvetica Neue", "PingFang TC", "Microsoft JhengHei", Arial, sans-serif;
+      --ease: cubic-bezier(.2, .7, .2, 1);
+    }
+    body {
+      background: var(--bg);
+      color: var(--fg);
+      font-family: var(--sans);
+      font-weight: 300;
+      font-size: 15px;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      min-height: 100vh;
+      min-height: 100svh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 48px clamp(20px, 6vw, 56px);
+      text-align: center;
+    }
+    .wrap { animation: rise 1s var(--ease) both; }
+    @keyframes rise { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+
+    .code {
+      font-family: var(--serif);
+      font-weight: 300;
+      font-size: clamp(72px, 18vw, 160px);
+      line-height: 1;
+      letter-spacing: .06em;
+      margin: 0;
+    }
+    .rule {
+      width: 88px;
+      height: 1px;
+      margin: 36px auto;
+      background: var(--hairline);
+    }
+    .line-zh {
+      font-size: clamp(16px, 2.4vw, 19px);
+      letter-spacing: .06em;
+      margin: 0 0 6px;
+    }
+    .line-en {
+      font-size: 13px;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin: 0;
+    }
+
+    .links {
+      margin-top: 52px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 28px;
+      font-size: 13px;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+    .links a {
+      color: var(--fg);
+      text-decoration: none;
+      border-bottom: 1px solid var(--hairline);
+      padding-bottom: 3px;
+      transition: opacity .2s var(--ease);
+    }
+    .links a:hover { opacity: .55; }
+
+    .foot {
+      position: absolute;
+      bottom: 28px;
+      left: 0; right: 0;
+      font-size: 12px;
+      letter-spacing: .04em;
+      color: var(--muted);
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .wrap { animation: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <p class="code">404</p>
+
+    <div class="rule" aria-hidden="true"></div>
+
+    <p class="line-zh">找不到這個頁面。</p>
+    <p class="line-en">This page could not be found.</p>
+
+    <nav class="links" aria-label="404">
+      <a href="/">首頁 Home</a>
+      <a href="/work-2026.html">作品 Work</a>
+      <a href="/contact.html">聯絡 Contact</a>
+    </nav>
+  </div>
+
+  <p class="foot">© <span id="year">2026</span> Mr.Mid9</p>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

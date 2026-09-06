@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-i18n="meta.title.work">作品｜Mr.Mid9</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&family=Inter:wght@300;400;500&family=Noto+Sans+TC:wght@300;400;500&display=swap">
+  <link rel="stylesheet" href="css/style.css?v=3">
+</head>
+<body data-page="work" data-year="2026">
+  <header class="nav">
+    <a class="nav__brand" href="index.html" data-i18n="brand.name">Mr.Mid9</a>
+    <nav class="nav__menu" aria-label="primary">
+      <div class="nav__dropdown is-current" id="works-dropdown">
+        <button type="button" class="nav__dropdown-toggle" aria-expanded="false" aria-haspopup="true" data-i18n="nav.work">作品</button>
+        <div class="nav__dropdown-menu" role="menu">
+          <a href="work-2026.html" role="menuitem" class="is-current">2026</a>
+          <a href="work-2025.html" role="menuitem">2025</a>
+          <a href="work-2024.html" role="menuitem">2024</a>
+        </div>
+      </div>
+      <a href="about.html" data-i18n="nav.about">關於</a>
+      <a href="news.html" data-i18n="nav.news">動態</a>
+      <a href="contact.html" data-i18n="nav.contact">聯絡</a>
+      <a href="form.html" data-i18n="nav.form">表單</a>
+      <span class="nav__lang">
+        <button type="button" data-lang="zh" class="is-active">ZH</button>
+        <span class="nav__lang-sep" aria-hidden="true">/</span>
+        <button type="button" data-lang="en">EN</button>
+      </span>
+    </nav>
+    <button class="nav__toggle" type="button" aria-label="menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <main class="work">
+    <aside class="work__years" id="year-list" aria-label="years"></aside>
+    <section class="work__list" id="work-list"></section>
+  </main>
+
+  <footer class="footer">
+    <p class="footer__copy">© <span id="year"></span> <span data-i18n="brand.name">Mr.Mid9</span></p>
+    <p class="footer__links">
+      <a href="contact.html" data-i18n="nav.contact">聯絡</a>
+      <a href="https://instagram.com/" target="_blank" rel="noopener">Instagram</a>
+    </p>
+  </footer>
+
+  <div class="lightbox" id="lightbox" hidden>
+    <button class="lightbox__close" type="button" aria-label="close">×</button>
+    <button class="lightbox__prev" type="button" aria-label="prev">‹</button>
+    <button class="lightbox__next" type="button" aria-label="next">›</button>
+    <figure class="lightbox__figure">
+      <img id="lightbox-image" alt="">
+      <figcaption id="lightbox-caption"></figcaption>
+    </figure>
+  </div>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js?v=2"></script>
+  <script src="js/works.js"></script>
+</body>
+</html>

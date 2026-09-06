@@ -1,0 +1,41 @@
+{
+  "portrait": "",
+  "sections": [
+    {
+      "key": "education",
+      "entries": [
+        { "year": "2010", "text": { "zh": "國立臺北藝術大學 美術系", "en": "BFA, Taipei National University of the Arts" } }
+      ]
+    },
+    {
+      "key": "solo",
+      "entries": [
+        { "year": "2025", "text": { "zh": "個展標題，畫廊名稱，臺北", "en": "Solo show title, Gallery name, Taipei" } }
+      ]
+    },
+    {
+      "key": "group",
+      "entries": [
+        { "year": "2024", "text": { "zh": "聯展標題，機構名稱，地點", "en": "Group show title, Institution, City" } }
+      ]
+    },
+    {
+      "key": "collections",
+      "entries": [
+        { "year": "", "text": { "zh": "私人收藏（臺灣、日本、美國）", "en": "Private collections (Taiwan, Japan, USA)" } }
+      ]
+    },
+    {
+      "key": "publications",
+      "entries": [
+        { "year": "2023", "text": { "zh": "出版品名稱，出版社", "en": "Publication title, Publisher" } }
+      ]
+    },
+    {
+      "key": "awards",
+      "entries": [
+        { "year": "2020", "text": { "zh": "獎項名稱", "en": "Award title" } }
+      ]
+    }
+  ]
+}

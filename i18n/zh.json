@@ -1,0 +1,55 @@
+{
+  "brand": {
+    "name": "Mr.Mid9"
+  },
+  "nav": {
+    "work": "作品",
+    "about": "關於",
+    "news": "動態",
+    "contact": "聯絡",
+    "form": "表單"
+  },
+  "meta": {
+    "title": {
+      "home": "Mr.Mid9｜藝術家官網",
+      "work": "作品｜Mr.Mid9",
+      "about": "關於｜Mr.Mid9",
+      "news": "動態｜Mr.Mid9",
+      "contact": "聯絡｜Mr.Mid9",
+      "form": "表單｜Mr.Mid9"
+    },
+    "description": "極簡風藝術家官方網站"
+  },
+  "home": {
+    "title": "Mr.Mid9",
+    "tagline": "以一行話表達創作精神。",
+    "scroll": "向下探索"
+  },
+  "about": {
+    "title": "關於",
+    "bio": "<p>在此放藝術家簡介第一段。</p><p>第二段：教育、創作脈絡或重要轉折。</p>",
+    "cvTitle": "學經歷"
+  },
+  "news": {
+    "title": "動態"
+  },
+  "contact": {
+    "title": "聯絡",
+    "intro": "展務、合作、收藏邀約請來信。",
+    "representation": "經紀代理：未定"
+  },
+  "cv": {
+    "education": "教育",
+    "solo": "個展",
+    "group": "聯展",
+    "collections": "典藏",
+    "publications": "出版",
+    "awards": "獎項"
+  },
+  "form": {
+    "title": "表單",
+    "intro": "請填寫以下表單，送出後我們會盡快與你聯繫。",
+    "loading": "載入表單中…",
+    "newTab": "在新分頁開啟表單"
+  }
+}

@@ -1,0 +1,12 @@
+# macOS 垃圾檔（舊 Mac 時代留下的）
+.DS_Store
+._*
+.AppleDouble
+.LSOverride
+
+# Windows 垃圾檔
+Thumbs.db
+desktop.ini
+
+# Claude Code 的本機設定（每台電腦不一樣，不用進版本）
+.claude/settings.local.json

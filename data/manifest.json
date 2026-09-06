@@ -1,0 +1,31 @@
+{
+  "works": [
+    {
+      "year": 2026,
+      "slug": "hk-toy-fair",
+      "image": "images/香港玩具展.jpg",
+      "title": { "zh": "香港玩具展", "en": "Hong Kong Toy Fair" },
+      "medium": { "zh": "展覽現場", "en": "Exhibition view" },
+      "dimensions": "",
+      "featured": true
+    },
+    {
+      "year": 2025,
+      "slug": "test-a",
+      "image": "images/2025/test-a.png",
+      "title": { "zh": "測試作品 A", "en": "Test Work A" },
+      "medium": { "zh": "壓克力 / 畫布", "en": "Acrylic on canvas" },
+      "dimensions": "180 × 240 cm",
+      "featured": true
+    },
+    {
+      "year": 2015,
+      "slug": "test",
+      "image": "images/2015/test.png",
+      "title": { "zh": "測試作品", "en": "Test Work" },
+      "medium": { "zh": "油畫 / 麻布", "en": "Oil on linen" },
+      "dimensions": "120 × 150 cm",
+      "featured": true
+    }
+  ]
+}

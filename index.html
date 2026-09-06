@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="zh-Hant">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-i18n="meta.title.home">Mr.Mid9｜藝術家官網</title>
+  <meta name="description" data-i18n="meta.description" content="">
+  <meta name="keywords" content="Mr.Mid9, 藝術家, 藝術作品, 當代藝術, 2026, 2025, 2024">
+  
+  <!-- Open Graph / SEO -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Mr.Mid9｜藝術家官網">
+  <meta property="og:description" content="Mr.Mid9 官方作品集網站，展示歷年精選創作作品。">
+  <meta property="og:url" content="https://example.com/index.html">
+  <meta property="og:image" content="https://example.com/assets/og-image.jpg">
+
+  <!-- GEO Positioning Metadata (台北市) -->
+  <meta name="geo.region" content="TW-TPE">
+  <meta name="geo.placename" content="Taipei">
+  <meta name="geo.position" content="25.0330;121.5654">
+  <meta name="ICBM" content="25.0330, 121.5654">
+
+  <!-- Local / Artist Schema Markup -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Mr.Mid9",
+    "jobTitle": "Artist",
+    "url": "https://example.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Taipei",
+      "addressRegion": "TPE",
+      "addressCountry": "TW"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "25.0330",
+      "longitude": "121.5654"
+    }
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&family=Inter:wght@300;400;500&family=Noto+Sans+TC:wght@300;400;500&display=swap">
+  <link rel="stylesheet" href="css/style.css?v=3">
+</head>
+
+<body data-page="home">
+  <header class="nav">
+    <a class="nav__brand" href="index.html" data-i18n="brand.name">Mr.Mid9</a>
+    <nav class="nav__menu" aria-label="primary">
+      <div class="nav__dropdown" id="works-dropdown">
+        <button type="button" class="nav__dropdown-toggle" aria-expanded="false" aria-haspopup="true" data-i18n="nav.work">WORKs</button>
+        <div class="nav__dropdown-menu" role="menu">
+          <a href="work-2026.html" role="menuitem">2026</a>
+          <a href="work-2025.html" role="menuitem">2025</a>
+          <a href="work-2024.html" role="menuitem">2024</a>
+        </div>
+      </div>
+      <a href="about.html" data-i18n="nav.about">ABOUT</a>
+      <a href="news.html" data-i18n="nav.news">NEWS</a>
+      <a href="contact.html" data-i18n="nav.contact">LINK</a>
+      <a href="form.html" data-i18n="nav.form">FORM</a>
+      <span class="nav__lang">
+        <button type="button" data-lang="zh" class="is-active">ZH</button>
+        <span class="nav__lang-sep" aria-hidden="true">/</span>
+        <button type="button" data-lang="en">EN</button>
+      </span>
+    </nav>
+    <button class="nav__toggle" type="button" aria-label="menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <figure class="hero__media">
+      </figure>
+      <div class="hero__caption">
+        <h1 data-i18n="home.title">Mr.Mid9</h1>
+        <p data-i18n="home.tagline">一行雙語短句，表達創作精神</p>
+      </div>
+      <button class="hero__prev" id="hero-prev" aria-label="Previous image">&#8249;</button>
+      <button class="hero__next" id="hero-next" aria-label="Next image">&#8250;</button>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="footer__copy">© <span id="year"></span> <span data-i18n="brand.name">Mr.Mid9</span></p>
+    <p class="footer__links">
+      <a href="contact.html" data-i18n="nav.contact">聯絡</a>
+      <a href="https://instagram.com/" target="_blank" rel="noopener">Instagram</a>
+    </p>
+  </footer>
+
+  <div class="lightbox" id="lightbox" hidden>
+    <button class="lightbox__close" type="button" aria-label="close">×</button>
+    <button class="lightbox__prev" type="button" aria-label="prev">‹</button>
+    <button class="lightbox__next" type="button" aria-label="next">›</button>
+    <figure class="lightbox__figure">
+      <img id="lightbox-image" alt="">
+      <figcaption id="lightbox-caption"></figcaption>
+    </figure>
+  </div>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js?v=2"></script>
+  <script src="js/works.js"></script>
+</body>
+
+</html>

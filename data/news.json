@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "date": "2026-05-01",
+      "image": "",
+      "title": { "zh": "新展覽宣布", "en": "New exhibition announced" },
+      "body": {
+        "zh": "<p>於某畫廊舉辦的個展即將開幕，展期至 X 月 X 日。</p>",
+        "en": "<p>A new solo exhibition opens at Gallery X, on view through DATE.</p>"
+      }
+    },
+    {
+      "date": "2025-09-12",
+      "image": "",
+      "title": { "zh": "出版品上市", "en": "Catalogue released" },
+      "body": {
+        "zh": "<p>新作畫冊由 XX 出版社印行，現於官網與獨立書店販售。</p>",
+        "en": "<p>A new catalogue is now available from XX Press and select bookstores.</p>"
+      }
+    }
+  ]
+}
